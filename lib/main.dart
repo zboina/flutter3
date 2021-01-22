@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'WCH Scanner',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'WCH Scanner'),
     );
   }
 }
@@ -97,8 +97,13 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Image.network(
+              "https://wirtualnachoinka.pl/images/logo7.png",
+              width: 160,
+              height: 160,
+            ),
             Text(
-              'You have pushed the button this many times:',
+              'Na razie naciskamy przycisk :-)',
             ),
             Text(
               '$_counter',
