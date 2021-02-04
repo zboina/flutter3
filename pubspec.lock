@@ -88,13 +88,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0-nullsafety.1"
-  qr_code_scanner:
+  qrscan:
     dependency: "direct main"
     description:
-      name: qr_code_scanner
+      name: qrscan
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.0"
+    version: "0.2.22"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -158,5 +158,5 @@ packages:
     version: "2.1.0-nullsafety.3"
 sdks:
   dart: ">=2.10.0-110 <2.11.0"
-  flutter: ">=1.10.0 <2.0.0"
+  flutter: ">=1.12.13+hotfix.5 <2.0.0"
   http: ">=0.12.0 <0.13.0"
